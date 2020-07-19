@@ -1,0 +1,104 @@
+{
+    "intents": [
+        {
+            "Keyword": "greeting",
+            "question": [
+              "Hi",
+              "Hey",
+              "How are you",
+              "Is anyone there?",
+              "Hello",
+              "Good day"
+            ],
+            "response_1": [
+              "Hey :-)",
+              "Hello, thanks for visiting",
+              "Hi there, what can I do for you?",
+              "Hi there, how can I help?"
+            ]
+          },
+          {
+            "Keyword": "goodbye",
+            "question": ["Bye", "See you later", "Goodbye"],
+            "response_1": [
+              "See you later, thanks for visiting",
+              "Have a nice day",
+              "Bye! Come back again soon."
+            ]
+          },
+        {
+            "Keyword": "admission",
+            "question": ["What is the admission procedure?","How to do admission"],
+            "response_1": " Notices and brochure for admission will be available on college website.Keep checking website for latest updates.Admission forms will be available on website.Fill the form take printout and attach copies of all necessary documents to form. Submit the form in the college with fees and bring all original documents for verification"
+        },
+        {
+            "Keyword": "admission",
+            "question": ["What is the cutoff marks ","How much is the cutoff"]
+        },
+        {
+            "Keyword": "admission",
+            "question": ["What is the eligibility criteria","Am i eligible"],
+            "response_1": "the candidates will be required to appear in Maharashtra Common Entrance Test (MHT CET). Admission to the B.E. lateral program is done on the basis of marks scored in Diploma in relevant discipline."
+        },
+        {
+            "Keyword": "fees",
+            "question": ["what is the fee structure","How much fees"],
+            "response_1": "https://vesitadmissions.ves.ac.in/pdfs/Fee_Structure_2019-20_FE.pdf"
+        },
+        {
+            "Keyword": "admission",
+            "question": ["Are there any seats reserved for any kind of minority students?","Seat distribution"],
+            "response_1": "Institute has 40% seats reserved for Sindhi Linguistic Minority students who are domicile of Maharashtra."
+        },
+        {
+            "Keyword": "scholarship",
+            "question": ["is scholarship offered","will i get discount"],
+            "response_1": "Scholarship are offered by DTE. which is directorate if technical education. Scholarships for EBC, OBC, TFWS, handicapped students are also available. Using the EBC scholarship, a students fees can be reduced up to 40000 a year"
+        },
+        {
+            "Keyword": "admission",
+            "question": ["what is the application process","how to apply"],
+            "response_1": "Candidates need to fill up the application form online from the official website of the college. The application fee should be paid online through net-banking or credit/debit card. The application fee is INR 1770. An amount of INR 100 is to be paid by cash in the college at the time of registration and document verification."
+        },
+        {
+            "Keyword": "admission",
+            "question": ["what documents are needed","what are requirements"],
+            "response_1": "https://vesitadmissions.ves.ac.in/Manual/REQIRED%20DOCUMENTS%20FOR%20FE.pdf"
+        },
+        {
+            "Keyword": "hostel",
+            "question": ["what is hostel fee structure ","how much cost for hostel"],
+            "response_1": "Hostel Fees: Rs. 55000/-\r\nSecurity deposit: Rs. 2000/-\r\nMess Fees: Rs 57000/-\r\nDemand draft fvg….Ves Hostel: Rs. 57000/-\r\nDemand draft fvg….. Ves Mess a/c: Rs. 57000/-\r\nContact details:\r\nEmail: hostel.admin@ves.ac.in\r\nNumber: 9820569938"
+        },
+        {
+            "Keyword": "hostel",
+            "question": ["what are facilities at hostel",""],
+            "response_1": "The facilities provided at the Hostel are:\r\n\r\nRecreation Room with LED TV\r\nDining Hall\r\nIndoor Games\r\n\r\nTable Tennis\r\nCarrom\r\nChess\r\n\r\n\r\nOutdoor Games\r\n\r\nVolley Ball\r\nBadminton\r\n\r\n\r\nMess Facilities\r\n\r\nMoving Breakfast with Milk/Tea/Coffee\r\nLunch with curds & Green Salad\r\nSnacks with coffee Tea\r\nDinner with salad & Desert/Sweets"
+        },
+        {
+            "Keyword": "hostel",
+            "question": ["what are hostel contacts","hostel committee"],
+            "response_1": "The entire working of the hostel is supervised under the able guidance of the Hostel Committee,which consists of the following members:-\r\n\r\nMs.Sangeeta Shahni\r\nMr.Vishu Lala\r\nMr.Sunil Madnani\r\n\r\nHostel Warden:-\r\n\r\nSunil Madnani\r\nMrs. Kajal Madnani"
+        },
+        {
+            "Keyword": "placement",
+            "question": ["placement officer contact details","how do i get placements"],
+            "response_1": "Training and Placement Officer:\r\nMr. Nagananda A.\r\nPhone: +91-22-61532532 Ext: 586 / +91-22-61532586 (D)\r\nEmail Address: tpo@ves.ac.in"
+        },
+        {
+            "Keyword": "placement",
+            "question": ["what are live placement statistics","how much placements","are placements good"],
+            "response_1": "https://vesittpc.ves.ac.in/statistics"
+        },
+        {
+            "Keyword": "admission",
+            "question": ["how to fill admission form","how to apply"],
+            "response_1": "https://www.youtube.com/watch?v=-Im6Lo8YktM&feature=emb_title"
+        },
+        {
+            "Keyword": "faculty",
+            "question": ["faculty info","who is the staff", "who teaches"],
+            "response_1": "http://ves.ac.in/vesit/wp-content/uploads/sites/3/2018/05/Faculty_List_Feb_2018.pdf"
+        }
+    ]
+}
