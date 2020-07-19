@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chatbot</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="chat.css">
+</head>
+<body> 
+    <div class="container">
+     
+        <div class="card" style="width:400px ; height: 500px;margin-top: 20px;margin-left:380px;" >
+          <div class="card-body">
+            <div id="chat-window" class="chat-box"> 
+                <div class="global-chat">    
+                    <div class="chat-box">     
+                         <div class="action-box">
+                             <div class="header-top-left-image">
+                                 <img role="presentation" src="https://images.shiksha.ws/pwa/public/images/icons/shk_38x38.png">
+                      
+                                    <span class="head2">VES Assistant</span>
+                                    
+                                    <span class="bot-status">Online</span></div>        
+                                    <span class="minimize-me" onclick="toggleChatWindow();">×</span>             
+                                 </div>      
+                                </div> 
+                </div>
+                             
+
+                             <div class="chat-area">
+                              <span class="send-button"><svg fill="#008489" viewBox="0 0 24 24" height="20" width="20" class="transition-ease-point-3-s" style="vertical-align: middle; margin-left: 10px;"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span>
+                              <div class="input-box">
+                              <input type="text" id="chatBox" name="txtAsk" placeholder="Write your query on colleges, exam here..." autocomplete="off" maxlength="500" class="chat-input">
+                            </div>
+          </div>
+          </div>
+    
+
+           
+            
+          </div>
+        </div>
+        
+
+</body>
+</html>
